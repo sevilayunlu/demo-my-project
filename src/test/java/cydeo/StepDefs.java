@@ -23,6 +23,8 @@ public class StepDefs {
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().get("http://etsy.com");
+        //Driver.getDriver().findElement(By.cssSelector("[class='wt-btn wt-btn--filled wt-mb-xs-0']")).click();
+
 
     }
 
